@@ -1,0 +1,168 @@
+# coding=gbk
+
+#¼âÍÅÈëÉù¿ìËÙ²éÑ¯
+
+from tkinter import *
+import tkinter.font as tkFont
+import ctypes
+
+jianzi = 'À°ñã·P—ìËvÕšœ•Îd“T¾ÒŒþ³^ôòÜÚ¾Ú¾ÑÇùöÂÉaÇˆoÐì‚TÇÒíšôPÐèÈ¢¾–‹ÁÊŒè`Ú…ÚmŠÛýRÄšû˜Ï“‘¼°UÆÞÝÂœDÆà¢ù†àV¾eýTë’Î÷—«ÆÜÏ¬ŒÊéØôÑýVÙŠýW™›”DÜQëYÌ~ÐÂÐÁÐ½ÓHŒ˜½ò­\øÇØòûÜ÷Û¨Ôƒ±†á¾«‘ä­âþ™eŠ®åÒ¿¢ÛZ‰æÛIÑ®Ñ²ñZÑ­“M¼ržµÏÈÜ]ÛŸÇ°škò`äÕÇ§ˆTÚäšþÇªÜ·Ø@Ç¨–e¹{  žˆŽ¥ídœ\žR»WÏÉƒMÆx¶iõr÷€`åXßw™¥ía¼åÈ…ôCÈ«Èª »È›ÐûÞïË¬uçäg–KÐý­v¬Iè¯Í•‹Ÿæ›ÏÑÔãŒ³oÈ¬çãªñóÜ½h¿XwÜõZçzÝbÊ’º–ÏvÐD˜þÛX¹›Á›“ßžtÏûÏüÏöåÐ¯h½‹äNŸ^ÏõòÙÇz“`ŠQ÷ÌéÔË–Øäã¾î˜×Sõç€ÙÕÇŸÇÆ½¹½¶Ä‰ú„½·Æ›àÝÏtõ´Ÿ÷å æ@èAºEŽÉàµÁDÖŠÐIÐ~Ð±Ð°Ð©Ô”ÏèâÔÏéÏåŽûÏæÏà¾|ÀvÝóJè‚­™ÖÏäÝÙŒ¢{÷FÊYÏQ“° Z‰¦‹Ô™{ËNÌbãÞ˜ŒçI¬šÛ„Û–”Ö ›è“ŒÖm†Üº[úIäÇåàõÇéÇçÕˆ‰ð¾«Ý¼ù‚òß¾§ü æº¾¦ìº”ìóäÂ€ðhòHˆžÓqÇàìiõ›ìmÐÇ•ÛÐÈõSö]ÐÑ¹žÐÉÐÊÇï¶kíG¾íFäÐù”öqöpé±ÈcÏbÚ‚åÙõFòøà±“A“[¾¾÷ÝÇõ¦ŸªÃ‘ÐÞÐß˜¼ð}ÇôÇöšüÆv·TÇÖñŸ½þ½Œ¤ç†¡÷S˜ßà‰ÒW–““ÍžÐÄ–‚µ‰—vƒ»ˆ²ûã”åß–ží†ÒvÀw‘œ‹üáê»`û|˜ ƒL×]ºž¼âšžžŒuÌ‚Ÿæè~äu“•üÏMŸñ @ wõ¯ôÚ¾×ÛB”¢¾wÐòs÷r¾ÛÈ¡Ëj÷qúÏ´È÷±M¸–ÕãŠõÐšÀŠ·ìÞ¹‘óÚÙþªžŒ°Œ¯°_Ì\Û`ÕðT‚k¼ôôå“B‘ì‹`×vÄ–ëhöÁßxºSóãÖj„¤Ð¡ÇÄã¸á ½Ë„àžÂŒ‘ža½ãïÏñÏóó­ÏðÒV„â÷P‹ñª„˜ªÏëõœ“¬ìo¾¸Šn·Úå¸x¾®Ê¡²M›G¹“œú¼N¾ÆŒ€Œ‹²Þ¦Ê`ÓNÓU„`ÐõˆÏÈ¤ìV·}„©‡ÆöÇÐ“ ¼š‰ÙÐö¼ÀëH·]ö›ÐÅÓÓœÑ¸Ø¶îˆ…_Ñ´êcÙ aË|ÚB•x“|¿NßM–‡¬’žp¾þžF¿£ê}ˆ­ùR•€Þ™Ñ³áßùƒy¿¡ðK®òEŒ”Ÿaö±ÜŒÉ`ÜçÝ€¾PÙ»—ºRË]êð¼ö›–Å[–çÑI¾€¾QÏÙ¼ýÈ“˜cäö¿¿’äÖÙvÏÛ‡[š^ŸêÐ¦Ð¤ímÇÊÕVê~ÇÍÇÎŽá†°‰ìß¯ Öxé¿Ñ›½åÜeÐ¶†‡½è½³áuƒõÐÔÐÕœQìn’áá¶ÐäÐãÀC¬LËÞäPçnÙÖ¾Íúš”ÇßßÄ†w…Â‰µ‰q‹ìÙÔÏ¤…wÏ¥ó¬ƒD¸OÆßÆâÆá—R¼²¼µÝð“Vê˜ŠˆôßóÎa—ù…rÐôÐçÔ[«—Ù[ã„šA÷ñÐ¼Ð¨“aéÇ¼I‚Ä¸`Æã¹Úà°X˜PŽÑ½ØŽ^ÏÑ¦¼œ¾ŠÒCÞjÐ¹äÍ¶c‹rýa½u¯T½X½^Ê…Ñ©”¦ÐVŒ¨õ½Ï÷¾ôÈ¸½ÀùoôªÚ|´F°”ÛeÎôÏ§•´ŽÊ“Ÿm— ·e¼¹Ûˆ¼£ÛE÷CöaÛ”ÒHŽó´ƒ››Ï¯Ï¦ñ¶Ï«Ét¼®Âc‰Jñ¤ÄlºuåaÎöñÓðª¾kòáÝ¾äÀ¦Îú¿ƒ„Þ¼ÅÆÝ‘hçK‘i´„Ï¢Ï±àq¯ŒÉYÏ¨¼´…uð¢®‚¾ƒÝÝÖ[…ýÁ•ÒuÚô÷@ò„ïe˜›ìI¼¯Ý‹™v‘çg¹œœ–É›…c½Ó—¸½Þé®æ¼Çö@½Ý¯C‚Œ›ÛdÕmæª¾f›ù·lÛoÛÆŒÔŒÑõóísíCÇ›Ñ× Ðë‹€Ç÷ÆëÆêòÓêåì´¼·õÒÇ×¬Q›»Ñ¯Ñ±õÑ¼ã÷µÇ³½¦º]ôÌÏÊÇ®ïÔïàÚ¹îýéúÏôóïÏ]äìç¯ÏúÚÛðÔÇÂÏêÏáç½æøÏâ½«½¬÷š½¯Î…Ç½æÍéÉÇ¾Ç¹ïÏ«oõÄÇÀÇºïºÇëâ¼óUöëûjöúâÊóVÑ°ïâä±—D’¦èÏËÇ©¼îèýÙÝ¼ß½¥ï·Ç±ÐðÐ÷äÓÜùöÝ¼Ã¾¡Ï³ªAÑ¢Þº¼ù½¤ê¯ÚÙÑ¡Ð´Ðº½±½°öß¾²ÇÞêïö«¼ÁßâÏ¸¼ÊÑ¶½ýÝ£êá½úçÆ½øðž¿¥Ïß¼úÐ¥Ú½Ð»½´¾»ö¦ÐåÐâðÕÇµÇÔ½ÚðÜç¥Ùô¾øÈµ»ýöêíÓÎý¼¨¼©Ï°Ï®÷ž¼­ä¤'
+duoyinzi = 'À°ËvÉaÇ¾–û˜àVôÑýVøÛ¨±†Š®ÛI“M¼ržµŽ¥ËägÏÑwÝbÏv˜þ¹›Çz“`ŠQÇŸèAŽÉÖŠÐ©è‚™ÖËNúIÐÉÚ‚·T÷SÒW—v–žÒváêû|×]•ü wôÚËjÈ÷Š·ìÞ‹`Ä–„àó­„â‹Ê¡¼N…_êcžpÞ™Ÿa¾PÅ[–çÑIÇÊ¯ ËÞš”—ùÐ¨Ž^äÍÊ…”¦÷CºuÝ¾®‚ò„ísíC¼îêå›»éúÏâÇ¾û]Üù'
+rushengzi = 'Ò»Æß²»Òµ·¦ÀÖÒÒÆòÏ°Ø¡Ø½ÒàÙñÙôÒÚÊ²ØìØÆÆÍ”·ü·¥²®Øý·ð×÷°ÛÙ¥Ù«Ö¶ÏÀ²à´ÙË×‚bÙ¿¾óÙÃ½èÙ¾Öµ‚¿‚È‚ÜƒWÆ§ƒ|Ø£¿ËÈë°ËÁùƒÔ²áÃ°ƒç¾öÙýÍ¹³ö»÷ÔäÇÐ»®ë¾ÁÐÔò„e±ð¹ÎË¢É²¿Ì„tÏ÷ØÝ„xÌÞ„ƒ„„°þ¾ç¸±¸î„‘„„¡ÅüÁ¦ÁÓ½Ù„ÂÛÀ²ªÀÕÛÃ„ÔÛÄÉ×ÎðÙéÙë±±ÔÑÏ»Æ¥ÄäÊ®Ø¦Ð­×ä×¿…f²©²·¿¨¼´È´…r…s¶òÀúÑ¹ÑáØÈØÊ…’¼°·¢ÊåµþÖ»°Èß³Ò¶³Ô¸÷ºÏ¼ªµõÏÅ…ÈÎü¸æÄÅßÈßÆßÍÕ¦ÖäÑÊ¹þÑÆ¿ÞÕÜßóßü×Äà¨†¡ßõØÄÄö¿¦à©à¸ºÈà·†Ýà¾àªà¿àÕ¸Â‡KÖöÒ­àÛØ¬àå‡˜‡¿½À‡Ë‡Ú‡Ü¹úàó‡ø»øÛåÛÒÛìÛÑÓòˆÌÜ¥ˆ×Ü¦ËúËþÈûÛÓÄ«ÛÔ±ÚÛÖ‰º¿ÇÒ¼¸´Ï¦ÙíÊ§¼Ð¶áŠAÆõÞÈŠZåùæ¨æ§æªŠ©æ¼Ï±¼µµÕæÝØÃÑ§ÊëŒWÄõÕ¬Êµ¿ÍÊÒËÞ¼ÅÃÜÄ¯²ìŒÉäÎ¾³ßÄá¾ÖÇüÎÝåìÐ¼ÊôŒÙÒÙá§ÔÀá»Ï¿Óø{áÈáÕŽFáÚË§ÅÁÌûàù²¯Ž›Ï¯àýàþÃÝá¢·ùÄ»Ž½Ž¾¶ÈâÕÀªØ¥ÞÄß®Ê½¸¥ÈõåöÂ¼ÒÛ³¹ÂÉµÃµÂØ±ØÒäß¯ºöâôGâò¼±âöÇÓâðâøÐôã¡Ï¢Ç¡¶ñâü‚Ï¤ã¨ã£ÔÃí¨»óÌè·ã±Ï§ºã«Åã¹ãµÜâÉåí«±ï‘›‘«‘ØÐç»òÆÝê©êªê«½ØÂ¾ÔúÆËÍÐÖ´À©Åú¶ó¾ñÒÖÕÛÄ¨Ñº·÷²ðÀ­ÅÄÍØ°Î×¾²¦ÔñÀ¨ÊÃÞ××§Ê°êüÍÚÌ¢Ð®ÞÚ’¶×½ÞÛ°ÆÄóÞæ½ÝÞàÄí’Û¶ÞÆþÒ´¾òÂÓ³¸½ÓÞäÖÀ²åÒ¾ÞëÎÕ½Ò¸é“n²«´¤“tÞù“‚´îÉãÕªÞýÃþß¡¾ïÆ²Èö³·“Ü´é“äß¢“é“ñ“ôë¢ßª²Á”R”S”U”X”z¾ðµÐë·Êý”³”µõúÎÓ³âí½”Û×åÈÕÐñê¾Ò×Îô×òêÅêÇêÊÎú•¿±©•ÏÆØÔ»ÇúêÂÔÂ·þË·Ä¾Ä©ÔýÊõ–[ÆÓÉ±ÔÓè»Êø½Ü¼«ÎöèÀ°ØÆâèÖèØ×õ–ÅÕ¤èÎèÝÀõèéºË–ò¸ñèî×Àèä½Ûèöèô¼¬é¤Ö²èü—éÐ¨é®˜I˜OÈ¶é½˜}éÃ˜¡éÎ˜·˜ãéÐÇÁéÒéÙéÓÏ­éÞ™±™³™µ™ÀÓûì¦Ðªì¨švš{éâÖ³éêš¢š¤ì±¶¾Ø¹±ÏÖ­Ï«ãàãè¼³›QÎÖÆããå›]í³Ã»Á¤Ä­·ÐÐ¹²´ÃÚ·¨ÆüÆÃÔó½àÂå›ªäª»îÇ¢ä¤×Ç²âÕã›ÅÔ¡›ÑÄùÉæµÓÉ¬ÒººÔäÀÊçœOœXäËäÂ²³ä×œy¿ÊÊªäÛÒçäàÄçäáœçœì»¬ääµÎÆáäõÄ®Š­³ºÉ¼¤áñå§åªž^ÆÙžrå®Ãð×ÆÖËË¸ÁÒÀÓÖòìÇÈÈìÌìÏÉ·Ï¨ÊììÚìÙŸáŸî TÛÆ±¬ k q¾ôë¹ëº ©ÄÁÎïÌØêö¶¿ Î ÙµÒáò¶ÀÏÁÓüªMÁÔâ§»«ªzâ±ªšÌ¡«@«C«HÂÊÓñ«X«içêçó×ÁÉªè±èµê¶¼×»­Ðó®…ÂÔ®‹¯BðÜ¸íÅ±Òß¼²ðøñ¤¯‘ñ±°X°l°×°ÙµÄðªÒæîÁºÐÄ¿Ö±Õ£×Å¶½ÄÀ½Þî§Ï¹Æ³ÖõÛÇ´£²šÊ¯³LÔÒÀùË¶íÌ³ˆÈ·ÂµíÓµúíØíÙ±Ì´T´_íÝ¿Ä´ƒµ[íçìð×£µ“Â»¸£¶dÍºï÷ÖÈïø»ý½Õ¶žð¢ÄÂ·eð£·wÑ¨·Šñ¶Í»ÇÔÕ­ÖÏ¿ß¸`Á¢½ßÖñóÃóÆóÅóË±ÊµÑóÒ¹P·¤Öþ´ð²ßóÙ²­óåóæóêóè¹ºBºDºVóöº`óúºj´Øóùóü²¾¼®»XÙáÁ£ÆÉËÚÔÁÖà»›¼e¼s¼v¼{¼‰Ë÷¼•¼›¼œ½E½I½Y½^½e½j½oôê¾G¾Y¾b¾ƒ¿`¿d¿e¿s¿{¿ƒ¿—ÀUÀ[ÀiÀmôîæüÔ¼¼¶ÄÉç¥ç¦Ö¯ç¨ç©Òï½á¸øÂç¾ø¼¨Ðø´ÂÂÌ×º¼©¸¿çÈËõçÓ½ÉÈ±À·£ÁPôÉñ´ÒîÁ•ôâµÔôçÒíñóÄôÖ°ñøÂ™Âší²ËàÃCÈâÀßÓýÐ²ëÎ¸ìÃ{Ã}Âö¼¹²±½ÅÃ“ÍÑÀ°Ò¸Ä_¸¹ëõ²²Ä¤Ï¥ÒÜÅDô«¾ÊôªÉàô¶ô·²°É«åõ½ÚÉÖÜ¸ÜÌÜÙÈôÆƒÆ…×ÂÜÔÜò¼ÔÜêÜýÒ©Ý¶ÇvÄª»ñÇ…ÇŠ¾ÕÝÊÝÄÈ[ÈøÝàÂäÈ~È‹Öø¸ðÝÝÝôÝðÉmÐîÝëÉœÞ£ÃïÎµÝýÞ§±¡Þ²Ñ¦ÞµË_½åËŽÞ½ÌEÞÁÌYÌ‹Å°ë½Ê­Ê´òÆ¸òòÎÕÝòÌÍÊñòØÃÛÀ¯òáòâòæÎUòåÐ«ÎgòðÎtòóµûó§ó°ÏUÏXó¬Ïó¶ÏžÑªÐgñÄÍàÏ®¸¤ñÊÁÑñÖñÓºÖñ×ÈìñÞÒCôÅÒmÒu¸²Ò’Ò ÓXÓ]ÃÙ¾õêêêë½Çõû´¥ö¢Óvì²Ó|Ó“Ó™ÔEÔGÔOÔxÔ€Ô‘ÕfÕ™Ö@ÖZÖ]ÖkÖoÖqÖ†×H×R×g×x×„Ú¦ÆýÚ«Éè¾÷Ê¶Ú°ÒëÚµËµÅµ¶ÁµýÚÊÚËÚÌÚÕÚ×ÚØÚÜ¹È»íºÑõöØŸÙNÙ\Ù|ÚHÔðÖÊÌùÔôÊê³àºÕÔ½È¤×ãõÀõÁÔ¾°ÏµøõÅÛEõ¼õÏÛRÌ¤ÛgÌßÛqõÙõÜõâõÞÌ£ÛˆõæÛ‹õ¾Û•õ¿Ü@õíõêõëõî³ùÜSõñÜUÜWõóÜbÜjÜˆÜ—ÝSÝWÝYÝ^ÝmÝzÝ‹Ý—ÝžÝ ÞAÞHÞ]ÔþéîÖáéóéöéø½Ïéüê¡·ø¼­Ï½ê¤ÕÞ±ÙÀ±Èè´ïÆùµÏÆÈµüåÅÊö¼£ÊÊÄæÖðåÑËÙåÖÒÝ±Æ¶ôß_åÝßmåãååÒØÚþÓôÛ¤Û£ºÂàPÛª¹ù¶õà’áB×Ãõ¡ÀÒ¿áõ³õ¶ÊÍáŒášâ“â•â›ãXã‡äeä|ä›åaåeåŠåŽåšå›æ|æ„æ—çCèCèFèIèZèeèpè€è‡èÔ¿îÚ²§îàîá¼ØÌúîåîìîòèœÕ¡ï¡ï¸´íÎýé@ïÆïÉïÊÄ÷ï×ïáïßïãïìïíé]éléwéyé†é‘é˜éŸé êHêIêVêY±ÕÕ¢ãË·§¸óÔÄãÒãÕãÖÀ«ã×ãØãÚÂ½Ä°ÚìÚíê‘êŸ¸ôÏ¶ÚôëbÈ¸¼¯öÃësÑ©ö¨±¢»ôö®ÄÞ°ÔÅùìZØÌìv¸ïìƒ÷°÷²¾Ïí^í‚í“îRîaî~î€ïDÒ³ò¡¼Õò¦¶îò¨ïSìªÊ³ï†ï—ðG÷ÑâÁÊÎâÄð¥ñgñ˜ò‡ò’ò“óA²µæäÂæóX¹Ç÷À÷Ç÷àô]ôdØªå÷ÆÇ÷Êô|öaöl÷M÷Z÷{öêöøöù±î÷¬ø_ø†øŽøùOùPù]ùfùoúFúQúWúXú^ú‰ú–Ñ¼ð»¸ëð¾ðÀðÁÈµûh÷½ðÍûnûoº×ðÖÂ¹Â´ûœÂóºÚÄ¬÷í÷ï÷òütíêýpý}öºö»ÙßÒ»Æß²»Òµ·¦ÀÖÒÒÆòÏ°Ø½ÒàÙñÙôÒÚÊ²ØÆÆÍ·ü·¥²®Øý·ð×÷Ù¥Ö¶ÏÀ²à´ÙË×‚b¾óÙÃ½è‚È‚ÜƒWÆ§ƒ|Ø£¿ËÈë°ËÁùƒÔ²áÃ°¾öÙýÍ¹³ö»÷ÔäÇÐë¾ÁÐÔò„e±ð¹ÎË¢É²¿Ì„tÏ÷ØÝ„xÌÞ„ƒ°þ¾ç¸±¸î„¡Á¦ÁÓ½ÙÛÀ²ªÀÕÉ×ÎðÙë±±ÔÑÏ»Æ¥ÄäÊ®Ð­×ä×¿…f²©¿¨¼´È´…r…sÀúÑ¹ØÈØÊ¼°·¢Êåß³Ò¶³Ô¸÷ºÏ¼ªµõÏÅ…ÈÎü¸æÄÅßÈßÍÕ¦ÖäÑÊ¿ÞÕÜßó×Äà¨ßõØÄà©à¸ºÈ†Ýà¾¸Â‡KÒ­Ø¬‡˜¹úàó‡øÛÒÓòˆÌÜ¥ËþÈûÛÓÄ«±ÚÛÖ‰ºÒ¼¸´Ï¦ÙíÊ§¼Ð¶áŠAÆõÞÈŠZæ§æªæ¼¼µµÕØÃÑ§ÊëŒWÕ¬Êµ¿ÍÊÒËÞ¼ÅÃÜÄ¯²ìŒÉäÎ¾³ßÄá¾ÖÇüÎÝåìÐ¼ÊôŒÙÒÙá§ÔÀÏ¿{áÈáÚË§Ìû²¯Ž›Ï¯àþá¢·ùÄ»Ž½¶ÈÀªÞÄß®Ê½¸¥åöÂ¼ÒÛ³¹ÂÉµÃµÂØ±ØÒäß¯ºö¼±ÇÓâðÐôã¡Ï¢Ç¡¶ñâü‚Ï¤ã£ÔÃ»óÌèÏ§ºÅã¹ãµÉå‘›‘ØÐç»òÆÝê©êªÂ¾ÆËÍÐÖ´Åú¾ñÒÖÕÛÄ¨Ñº·÷À­ÅÄÍØ°Î×¾²¦ÔñÀ¨ÊÃÊ°êüÌ¢Ð®ÞÚ’¶×½ÞÛÄóÞæ½ÝÄí¶ÞÆþÒ´¾òÂÓ³¸½ÓÞäÖÀ²åÒ¾ÎÕ½Ò²«Þù´îÉãÕªÞýÃþß¡³·“Ü´é“äß¢“é“ñ“ôßª”S”X”z¾ðµÐë·Êý”³”µõúÎÓ³âÈÕÐñÒ×Îô×òêÇÎú•¿±©Ô»ÇúêÂÔÂ·þË·Ä¾Ä©ÔýÊõÆÓÉ±ÔÓÊø½Ü¼«ÎöèÀ°ØèÖèØ×õ–ÅÕ¤èÎèÝÀõºË¸ñèäèö¼¬Ö²èüÐ¨é®˜I˜Oé½˜·˜ãéÐÇÁéÒéÙÏ­™±™³™µ™ÀÓûÐªì¨švš{éâÖ³éêš¢ì±¶¾Ø¹±ÏÖ­Ï«ãè¼³›QÎÖãå›]í³Ã»Á¤Ä­Ð¹²´ÃÚ·¨ÆüÆÃÔó½àÂå›ª»îÇ¢×Ç²âÕãÔ¡ÄùÉæµÓÉ¬ÒººÔäÀÊçœOäËäÂ²³œy¿ÊÊªäÛÒçÄçœçœì»¬µÎÆáÄ®Š­³ºÉ¼¤áñå§åªž^ÆÙžrÃð×ÆÖËË¸ÁÒÀÓÖòìÇÈÈìÌìÏÏ¨ÊììÚìÙŸáŸî TÛÆ±¬ q¾ôë¹ëº ©ÄÁÎïÌØ¶¿ ÙµÒáò¶ÀÏÁÓüªMÁÔâ§»«ªzªšÌ¡«@«C«HÂÊÓñ×ÁÉªè±èµ¼×»­Ðó®…ÂÔ®‹ðÜÅ±Òß¼²ñ¤¯‘ñ±°X°l°×°ÙµÄÒæîÁÄ¿Ö±Õ£×Å¶½ÄÀ½ÞÏ¹ÖõÛÇ´£²šÊ¯ÀùË¶È·ÂµíÓíÙ±Ì´T´_´ƒµ[íç×£µ“Â»¸£¶dÍºï÷ÖÈïø»ý½Õð¢ÄÂ·eð£·wÑ¨Í»ÇÔÕ­ÖÏ¿ß¸`Á¢½ßÖñóÃóË±ÊµÑóÒ¹P·¤Öþ´ð²ß²­óæ¹ºBºD´Ø¼®ÙáÁ£ÆÉËÚÔÁÖà»›¼e¼s¼v¼{¼‰Ë÷¼›½Y½^½j½o¾G¾Y¾b¾ƒ¿`¿s¿ƒ¿—ÀUÀ[ÀmæüÔ¼¼¶ÄÉç¦Ö¯Òï½á¸øÂç¾ø¼¨Ðø´ÂÂÌ×º¼©¸¿Ëõ½ÉÀ·£ÁPôÉÒîÁ•µÔôçÒíÄôÖ°ñøÂ™Âší²ËàÃCÈâÀßÓýÐ²Ã{Ã}Âö¼¹½ÅÃ“ÍÑÀ°Ò¸Ä_¸¹²²Ä¤Ï¥ÅDÉàô¶²°É«½ÚÉÖÜÌÜÙÈô×ÂÜò¼ÔÒ©Ý¶ÇvÄª»ñ¾ÕÝÄÈøÂäÈ~Öø¸ðÝðÐîÃïÎµÞ§±¡Ë_½åËŽÅ°ë½Ê­Ê´¸òòÎÕÝÊñÃÛÀ¯òâòæòåÎgòðÎtòóµûó§ó°ÏUÏXó¶ÏžÑªÐgñÄÍàÏ®ÁÑºÖÈìñÞÒCÒmÒu¸²Ò’Ò ÓXÃÙ¾õêê½Ç´¥ö¢Ó|Ó“Ó™ÔEÔGÔOÔxÔ‘ÕfÕ™Ö@ÖZÖ]ÖkÖoÖqÖ†×H×R×g×xÚ¦ÆýÚ«Éè¾÷Ê¶Ú°ÒëÚµËµÅµ¶ÁµýÚÊÚËÚÌÚÕÚ×ÚØÚÜ¹È»íºÑõöØŸÙNÙ\Ù|ÚHÔðÖÊÌùÔôÊê³àºÕÔ½×ãõÀÔ¾°ÏµøÛEÌ¤ÌßõâõÞõæõ¾õ¿õíõêõîÜSÜbÜˆÝSÝWÝYÝ^ÝmÝzÝ‹Ý—ÝžÞAÞHÔþÖáéóéø½Ïéüê¡·ø¼­ê¤ÕÞ±ÙÈè´ïÆùÆÈµüåÅ¼£ÊÊÄæÖðåÑËÙåÖÒÝ±Æ¶ôß_ßmåãÒØÚþÓôÛ¤ºÂ¹ù¶õà’×ÃÀÒ¿áÊÍáŒâ›ãXä›åaåeæ—çCèCèFèIèpè€èÔ¿²§îá¼ØÌúîåîì´íÎýïáïßïíéwéyé†é‘éŸêHêIêV·§¸óÔÄãÒãÕÀ«ãØãÚÂ½Ä°Úìê‘¸ôÏ¶ÚôÈ¸¼¯ësÑ©±¢»ôö®ÄÞ°ÔÅùØÌìv¸ïîRîaî~ò¡¼Õ¶îïSìªÊ³ï†ï—ðGâÁÊÎâÄð¥ñgñ˜óA²µæäÂæ¹Ç÷À÷Çô]ôdØªå÷ÆÇöa÷{öêöùø†øù]ùoúFúQÑ¼¸ëðÀÈµðÍº×Â¹Â´ûœÂóºÚÄ¬÷í÷ï÷òüt'
+
+
+def isjian(cha):
+    if cha in jianzi and cha in duoyinzi:
+        return ('¶à')
+    elif cha in jianzi:
+        return ('¼â')
+    else:
+        return ('·Ç')
+
+
+def isru(cha):
+    if cha in rushengzi:
+        return ('ÈëÉù')
+    else:
+        return ('·ÇÈë')
+
+
+
+def UI():
+    def click():
+
+        var=t1.get("1.0",END)
+        t2.delete("1.0",END)
+        n=1
+        for i in var:
+            if var1.get()==1 and var2.get()==1:
+                if isjian(i) =='¼â'and isru(i)=='ÈëÉù':
+                    t2.insert(END, i, 'jianru')
+
+                    t2.tag_add('jianru', str(n)+'.0')
+                    t2.tag_config('jianru', foreground='red', font=defaut1, underline=1)
+
+
+                elif isjian(i)=='¶à' and isru(i)=='ÈëÉù':
+                    t2.insert(END, i, 'duoru')
+
+                    t2.tag_add('duoru', str(n)+'.0')
+                    t2.tag_config('duoru', foreground='blue', font=defaut1, underline=1)
+
+
+
+                elif isjian(i)=='¼â':
+                    t2.insert(END, i, 'jian')
+
+                    t2.tag_add('jian', str(n)+'.0')
+                    t2.tag_config('jian', foreground='red', font=defaut1)
+
+
+                elif isjian(i) == '¶à':
+                    t2.insert(END, i, 'duo')
+                    t2.tag_add('duo', str(n) + '.0')
+                    t2.tag_config('duo', foreground='blue', font=defaut1)
+
+
+                elif isru(i)=='ÈëÉù':
+                    t2.insert(END, i,'ru')
+
+                    t2.tag_add('ru', str(n)+'.0')
+                    t2.tag_config('ru', font=defaut1, underline=1)
+                else:
+
+                    t2.insert(END, i)
+
+
+
+                n += 1
+            elif var1.get()==1:
+                if isjian(i)=='¼â':
+
+                    t2.tag_add('jian', str(n) + '.0')
+                    t2.tag_config('jian', foreground='red', font=defaut1)
+
+                    t2.insert(END, i, 'jian')
+                elif isjian(i) == '¶à':
+                    t2.tag_add('duo', str(n) + '.0')
+                    t2.tag_config('duo', foreground='blue', font=defaut1)
+                    t2.insert(END, i, 'duo')
+                else:
+                    t2.insert(END, i)
+                n += 1
+            elif var2.get()==1:
+                if isru(i) == 'ÈëÉù':
+                    t2.insert(END, i, 'ru')
+
+                    t2.tag_add('ru', str(n) + '.0')
+                    t2.tag_config('ru', font=defaut1, underline=1)
+
+
+                else:
+
+                    t2.insert(END, i)
+                n += 1
+            else:
+                t2.delete("1.0",END)
+
+                t2.insert(END, 'Ê²Ã´¶¼²»Ñ¡Äª²»ÊÇÀ´ÏûÇ²È÷¼Ò')
+
+    win = Tk()
+
+    ctypes.windll.shcore.SetProcessDpiAwareness(1)
+    ScaleFactor = ctypes.windll.shcore.GetScaleFactorForDevice(0)
+    # if ScaleFactor==150:
+    #     win.geometry('1285x1400')
+    # else:
+    #     win.geometry('855x900')
+    # # ÉèÖÃ³ÌÐòËõ·Å
+    win.tk.call('tk', 'scaling', ScaleFactor / 75)
+
+
+    #±êÌâ
+    win.title('¼âÁËÅÆ¼âÍÅÈëÉù¿ìËÙ²éÑ¯')
+    label1 = Label(win, text='¼âÁËÅÆ¼âÍÅÈëÉù¿ìËÙ²éÑ¯', font=('Kaiti', 36)).pack()
+    Label(win, text="ºìÉ«±íÊ¾¼â×Ö£¬À¶É«±íÊ¾¿É¼â¿ÉÍÅ£¬ÏÂ»®Ïß±íÊ¾ÈëÉù", font=('Kaiti', 20)).pack()
+    Label(win, text="±¾³ÌÐò´æÔÚÒ»¶¨Îó²î£¬¾ßÌåÇé¿öÇë²Î¿¼ÔÏÊé", font=('Kaiti', 20)).pack()
+    Label(win, text="ÇëÓÚ¿òÄÚÊäÈëÒª²éÑ¯µÄÎÄ×Ö",font=('Kaiti', 26)).pack()
+
+    t1=Text(win,height=10)
+    t1.pack(expand=True, fill=BOTH)
+
+    defaut1=tkFont.Font(family="Kaiti", size=16)
+    t1.configure(font=defaut1)
+
+    bot1=Button(win,text='²éÑ¯',width=10,height=2,command=click)
+    bot1['font']=tkFont.Font(family="Kaiti", size=26)
+    bot1.pack()
+
+    var1 = IntVar()
+    var1.set(1)
+    c1=Checkbutton(win, text="¼â×Ö", variable=var1)
+    c1['font']=tkFont.Font(family="Kaiti", size=26)
+    c1.pack()
+
+    var2 = IntVar()
+    var2.set(1)
+    c2=Checkbutton(win, text="ÈëÉù", variable=var2)
+    c2['font']=tkFont.Font(family="Kaiti", size=26)
+    c2.pack()
+
+
+    Label(win, text="²éÑ¯½á¹û", font=('Kaiti', 26)).pack()
+
+    t2 = Text(win, height=25)
+    t2.pack(expand=True, fill=BOTH)
+    t2.configure(font=defaut1)
+
+
+
+
+
+
+
+
+    win.mainloop()
+
+
+UI()

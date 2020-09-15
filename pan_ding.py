@@ -20,3 +20,4 @@ def isru(cha):
         return ('入声')
     else:
         return ('非入')
+
